@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woodbridge COVID-19 Contract Attestation</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet"> 
+  <link rel="stylesheet" href="quixi.css">
+  
+</head>
+<body onselectstart="return false">
+	<div class="header">
+		<h1>COVID-19 CONTRACT</h1>
+		<hr>
+		<p>CONTRACT-ATTESTATION</p>
+		<br />
+	</div>
+	<div class="statement">
+		<p>
+		By completing this letter, I attest that the answers provided in completing<br>
+		this screening tool and assessment were truthful and complete. I understand<br> 
+		the contagious nature of COVID-19 and the risk associated with the serious<br>
+		illness in the elderly. I have completed this screening and will inform the<br>
+		facility administrator or supervisor should I experience any symptoms during<br>
+		my shift or visit inside this facility.
+		</p>
+		<p>
+		As a legal record of completing the COVID-19 screening, I am attesting to the<br>
+		truthfulness and completeness of my answers prior to entry at Woodbridge<br>on 10/11/12.
+		</p>
+		<br  >
+		<br  />	
+	</div>
+	<div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+	<form>
+		<label for="fname">Name:</label><br>
+		<input type="text" value="Bruce Wayne">
+		</form>
+	</div>	
+	<br/>
+	<div class="row">
+		
+		<div id="signature-pad" class="signature-pad">
+		<div class="signature-pad--body">
+		<p>Signature:</p>
+			<canvas id="sig-canvas" width="275" height="70"></canvas>
+		</div>
+	<br/>
+        <div>
+          <button type="button" class="button button1" data-action="clear">Clear</button>
+          <button type="button" class="button button2"    data-action="change-color">Change color</button>
+        </div>
+      <br/>
+	  <br/>
+      <div>
+		<button type="button" class="button button4" data-action="save-jpg">Done</button>
+      </div>
+      </div>
+    </div>
+	
+	<script src="signature_pad.js"></script>
+	<script src="app.js"></script>
+		
+</body>
+</html>
